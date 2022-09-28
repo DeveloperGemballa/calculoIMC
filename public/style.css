@@ -1,0 +1,83 @@
+.header {
+    background-color: rgb(192, 111, 111);
+    height: 35px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.painel {
+    background-color: rgb(143, 143, 143);
+    height: 80vh;
+    width: 150vh;
+    position: absolute;
+    left:13%;
+    top:9%;
+    box-shadow: rgba(180, 180, 180, 0.4) -5px 5px, rgba(61, 61, 61, 0.3) -10px 10px, rgba(49, 49, 49, 0.2) -15px 15px, rgba(36, 36, 36, 0.1) -20px 20px, rgba(0, 0, 0, 0.05) -25px 25px;
+}
+.input {
+    height: 25px;
+    width: 200px;
+    border: solid 1px gray;
+    border-style: double;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.input:hover {
+    height: 26px;
+    width: 201px;
+    border: solid 2px;
+    border-style: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+form {
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    margin: 12px;
+}
+.botao {
+    background-color: rgb(192, 111, 111);
+    height: 50px;
+    text-align: center;
+    font-size:45px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:whitesmoke;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    position: relative;
+    left: 35%;
+    border-radius: 20%;
+}
+.botao:hover {
+    background-color: rgb(129, 0, 0);
+    height: 55px;
+    color:black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+.imcpainel {
+    background-color: rgb(201, 201, 201);
+    height: 10vh;
+    width: 20vh;
+    position: absolute;
+    float: center;
+    top:60%;
+    left: 42%;
+    border: solid 5px gray;
+    border-style: double;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.imctexto {
+    background-color: rgb(218, 218, 218);
+    font-size: 35px;
+    position: absolute;
+    left: 6%;
+    top: 25vh;
+    text-align: center;
+}
+.texto {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.headermenor {
+    background-color: rgb(192, 111, 111);
+    height: 45px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
