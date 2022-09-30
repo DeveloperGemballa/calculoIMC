@@ -15,8 +15,10 @@ class CalculoIMCController extends Controller
         $CalculoIMC = new CalculoDeIMC();
         $idade = new CalculoDeIMC();
         $horassono = new CalculoDeIMC();
-        $valor = $CalculoIMC->calculandoIMC();
+        $imcpessoa = $CalculoIMC->calculandoIMC();
+        $msgIMC = $CalculoIMC->mensagemIMC();
         $idadepessoa = $idade->calculandoidade();
-        return view('IMCinfo',['valor'=>$valor, 'idade'=>$idadepessoa, 'horassono'=>$horassono]);
+        $horassono = $horassono->calculandosono();
+        return view('IMCinfo',['imcpessoa'=>$imcpessoa, 'idade'=>$idadepessoa,  'msgIMC'=> $msgIMC, 'horassono'=>$horassono]);
      }
 }
