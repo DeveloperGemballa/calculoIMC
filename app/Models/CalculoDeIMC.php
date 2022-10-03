@@ -61,7 +61,7 @@ use League\CommonMark\Node\Block\Document;
             $anonascimento = $_GET['dataN'];
             $anoatual = 2022;
         // Convertendo string em número
-            $anonascimento =  floatval($anonascimento);
+            $anonascimento =  intval($anonascimento);
 
             $idadepessoa = $anoatual - $anonascimento;
             
